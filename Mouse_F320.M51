@@ -1,0 +1,21 @@
+BL51 BANKED LINKER/LOCATER V6.22              02/05/2013  10:57:50  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE C:\Users\grposey\Dropbox\Personal Projects\Wedding\NE
+>> S Controller\ArticleBuild\F3xx_USB0_Main.obj, C:\Users\grposey\Dropbox\Pers
+>> onal Projects\Wedding\NES Controller\ArticleBuild\F3xx_USB0_InterruptServic
+>> eRoutine.obj, C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Contro
+>> ller\ArticleBuild\F3xx_USB0_Standard_Requests.obj, C:\Users\grposey\Dropbox
+>> \Personal Projects\Wedding\NES Controller\ArticleBuild\F3xx_USB0_ReportHand
+>> ler.obj, C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\
+>> ArticleBuild\F326_USB0_Mouse.obj, C:\Users\grposey\Dropbox\Personal Project
+>> s\Wedding\NES Controller\ArticleBuild\F3xx_USB0_Descriptor.obj TO C:\Users\
+>> grposey\Dropbox\Personal Projects\Wedding\NES Controller\ArticleBuild\Mouse
+>> _F320 RS (256) PL (68) PW (78)
+
+
+*** FATAL ERROR L210: I/O ERROR ON INPUT FILE:
+    EXCEPTION 0021H: PATH OR FILE NOT FOUND
+    FILE: C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\Ar
+>> ticleBuild\F3xx_USB0_Descriptor.obj

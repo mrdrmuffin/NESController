@@ -1,0 +1,1443 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods + Flat24  (Intel 8051), page 1.
+
+Symbol Table
+
+    .__.ABS.                                                    =  0000 G
+    A                                                              00E0 
+ 16 A$F3xx_USB0_Standard_Requests$1000                             02B3 GR
+ 16 A$F3xx_USB0_Standard_Requests$1001                             02B4 GR
+ 16 A$F3xx_USB0_Standard_Requests$1002                             02B5 GR
+ 16 A$F3xx_USB0_Standard_Requests$1003                             02B7 GR
+ 16 A$F3xx_USB0_Standard_Requests$1008                             02BA GR
+ 16 A$F3xx_USB0_Standard_Requests$1012                             02BC GR
+ 16 A$F3xx_USB0_Standard_Requests$1013                             02BE GR
+ 16 A$F3xx_USB0_Standard_Requests$1016                             02C1 GR
+ 16 A$F3xx_USB0_Standard_Requests$1017                             02C4 GR
+ 16 A$F3xx_USB0_Standard_Requests$1018                             02C7 GR
+ 16 A$F3xx_USB0_Standard_Requests$1021                             02CA GR
+ 16 A$F3xx_USB0_Standard_Requests$1022                             02CD GR
+ 16 A$F3xx_USB0_Standard_Requests$1023                             02CE GR
+ 16 A$F3xx_USB0_Standard_Requests$1024                             02CF GR
+ 16 A$F3xx_USB0_Standard_Requests$1025                             02D0 GR
+ 16 A$F3xx_USB0_Standard_Requests$1026                             02D2 GR
+ 16 A$F3xx_USB0_Standard_Requests$1027                             02D5 GR
+ 16 A$F3xx_USB0_Standard_Requests$1031                             02D7 GR
+ 16 A$F3xx_USB0_Standard_Requests$1034                             02DA GR
+ 16 A$F3xx_USB0_Standard_Requests$1035                             02DD GR
+ 16 A$F3xx_USB0_Standard_Requests$1036                             02E0 GR
+ 16 A$F3xx_USB0_Standard_Requests$1039                             02E3 GR
+ 16 A$F3xx_USB0_Standard_Requests$1040                             02E6 GR
+ 16 A$F3xx_USB0_Standard_Requests$1041                             02E7 GR
+ 16 A$F3xx_USB0_Standard_Requests$1042                             02E8 GR
+ 16 A$F3xx_USB0_Standard_Requests$1043                             02E9 GR
+ 16 A$F3xx_USB0_Standard_Requests$1044                             02EB GR
+ 16 A$F3xx_USB0_Standard_Requests$1045                             02EE GR
+ 16 A$F3xx_USB0_Standard_Requests$1049                             02F0 GR
+ 16 A$F3xx_USB0_Standard_Requests$1054                             02F3 GR
+ 16 A$F3xx_USB0_Standard_Requests$1058                             02F5 GR
+ 16 A$F3xx_USB0_Standard_Requests$1059                             02F8 GR
+ 16 A$F3xx_USB0_Standard_Requests$1060                             02FB GR
+ 16 A$F3xx_USB0_Standard_Requests$1063                             02FE GR
+ 16 A$F3xx_USB0_Standard_Requests$1064                             0301 GR
+ 16 A$F3xx_USB0_Standard_Requests$1065                             0302 GR
+ 16 A$F3xx_USB0_Standard_Requests$1066                             0303 GR
+ 16 A$F3xx_USB0_Standard_Requests$1067                             0304 GR
+ 16 A$F3xx_USB0_Standard_Requests$1068                             0306 GR
+ 16 A$F3xx_USB0_Standard_Requests$1073                             0309 GR
+ 16 A$F3xx_USB0_Standard_Requests$1077                             030B GR
+ 16 A$F3xx_USB0_Standard_Requests$1078                             030E GR
+ 16 A$F3xx_USB0_Standard_Requests$1079                             0311 GR
+ 16 A$F3xx_USB0_Standard_Requests$1082                             0314 GR
+ 16 A$F3xx_USB0_Standard_Requests$1083                             0317 GR
+ 16 A$F3xx_USB0_Standard_Requests$1088                             031A GR
+ 16 A$F3xx_USB0_Standard_Requests$1092                             031C GR
+ 16 A$F3xx_USB0_Standard_Requests$1098                             031F GR
+ 16 A$F3xx_USB0_Standard_Requests$1099                             0321 GR
+ 16 A$F3xx_USB0_Standard_Requests$1100                             0324 GR
+ 16 A$F3xx_USB0_Standard_Requests$1104                             0326 GR
+ 16 A$F3xx_USB0_Standard_Requests$1105                             0329 GR
+ 16 A$F3xx_USB0_Standard_Requests$1109                             032B GR
+ 16 A$F3xx_USB0_Standard_Requests$1110                             032E GR
+ 16 A$F3xx_USB0_Standard_Requests$1114                             0330 GR
+ 16 A$F3xx_USB0_Standard_Requests$1115                             0333 GR
+ 16 A$F3xx_USB0_Standard_Requests$1119                             0335 GR
+ 16 A$F3xx_USB0_Standard_Requests$1123                             0338 GR
+ 16 A$F3xx_USB0_Standard_Requests$1124                             033A GR
+ 16 A$F3xx_USB0_Standard_Requests$1125                             033C GR
+ 16 A$F3xx_USB0_Standard_Requests$1126                             033D GR
+ 16 A$F3xx_USB0_Standard_Requests$1127                             033E GR
+ 16 A$F3xx_USB0_Standard_Requests$1128                             0340 GR
+ 16 A$F3xx_USB0_Standard_Requests$1129                             0341 GR
+ 16 A$F3xx_USB0_Standard_Requests$1130                             0343 GR
+ 16 A$F3xx_USB0_Standard_Requests$1133                             0345 GR
+ 16 A$F3xx_USB0_Standard_Requests$1134                             0347 GR
+ 16 A$F3xx_USB0_Standard_Requests$1137                             0349 GR
+ 16 A$F3xx_USB0_Standard_Requests$1138                             034C GR
+ 16 A$F3xx_USB0_Standard_Requests$1142                             034F GR
+ 16 A$F3xx_USB0_Standard_Requests$1143                             0351 GR
+ 16 A$F3xx_USB0_Standard_Requests$1144                             0354 GR
+ 16 A$F3xx_USB0_Standard_Requests$1149                             0356 GR
+ 16 A$F3xx_USB0_Standard_Requests$1150                             0358 GR
+ 16 A$F3xx_USB0_Standard_Requests$1151                             035B GR
+ 16 A$F3xx_USB0_Standard_Requests$1152                             035E GR
+ 16 A$F3xx_USB0_Standard_Requests$1155                             0361 GR
+ 16 A$F3xx_USB0_Standard_Requests$1158                             0364 GR
+ 16 A$F3xx_USB0_Standard_Requests$1159                             0365 GR
+ 16 A$F3xx_USB0_Standard_Requests$1160                             0367 GR
+ 16 A$F3xx_USB0_Standard_Requests$1164                             0369 GR
+ 16 A$F3xx_USB0_Standard_Requests$1177                             036A GR
+ 16 A$F3xx_USB0_Standard_Requests$1178                             036C GR
+ 16 A$F3xx_USB0_Standard_Requests$1181                             036F GR
+ 16 A$F3xx_USB0_Standard_Requests$1182                             0371 GR
+ 16 A$F3xx_USB0_Standard_Requests$1183                             0373 GR
+ 16 A$F3xx_USB0_Standard_Requests$1184                             0375 GR
+ 16 A$F3xx_USB0_Standard_Requests$1187                             0377 GR
+ 16 A$F3xx_USB0_Standard_Requests$1188                             0379 GR
+ 16 A$F3xx_USB0_Standard_Requests$1189                             037B GR
+ 16 A$F3xx_USB0_Standard_Requests$1190                             037D GR
+ 16 A$F3xx_USB0_Standard_Requests$1193                             037F GR
+ 16 A$F3xx_USB0_Standard_Requests$1194                             0381 GR
+ 16 A$F3xx_USB0_Standard_Requests$1195                             0383 GR
+ 16 A$F3xx_USB0_Standard_Requests$1196                             0385 GR
+ 16 A$F3xx_USB0_Standard_Requests$1197                             0388 GR
+ 16 A$F3xx_USB0_Standard_Requests$1202                             038A GR
+ 16 A$F3xx_USB0_Standard_Requests$1203                             038D GR
+ 16 A$F3xx_USB0_Standard_Requests$1207                             038F GR
+ 16 A$F3xx_USB0_Standard_Requests$1208                             0391 GR
+ 16 A$F3xx_USB0_Standard_Requests$1211                             0394 GR
+ 16 A$F3xx_USB0_Standard_Requests$1212                             0397 GR
+ 16 A$F3xx_USB0_Standard_Requests$1213                             039A GR
+ 16 A$F3xx_USB0_Standard_Requests$1216                             039D GR
+ 16 A$F3xx_USB0_Standard_Requests$1217                             03A0 GR
+ 16 A$F3xx_USB0_Standard_Requests$1221                             03A3 GR
+ 16 A$F3xx_USB0_Standard_Requests$1222                             03A5 GR
+ 16 A$F3xx_USB0_Standard_Requests$1225                             03A8 GR
+ 16 A$F3xx_USB0_Standard_Requests$1226                             03AB GR
+ 16 A$F3xx_USB0_Standard_Requests$1227                             03AE GR
+ 16 A$F3xx_USB0_Standard_Requests$1230                             03B1 GR
+ 16 A$F3xx_USB0_Standard_Requests$1231                             03B4 GR
+ 16 A$F3xx_USB0_Standard_Requests$1235                             03B7 GR
+ 16 A$F3xx_USB0_Standard_Requests$1236                             03B9 GR
+ 16 A$F3xx_USB0_Standard_Requests$1237                             03BC GR
+ 16 A$F3xx_USB0_Standard_Requests$1242                             03BE GR
+ 16 A$F3xx_USB0_Standard_Requests$1243                             03C0 GR
+ 16 A$F3xx_USB0_Standard_Requests$1244                             03C3 GR
+ 16 A$F3xx_USB0_Standard_Requests$1245                             03C6 GR
+ 16 A$F3xx_USB0_Standard_Requests$1248                             03C9 GR
+ 16 A$F3xx_USB0_Standard_Requests$1251                             03CC GR
+ 16 A$F3xx_USB0_Standard_Requests$1252                             03CD GR
+ 16 A$F3xx_USB0_Standard_Requests$1253                             03CF GR
+ 16 A$F3xx_USB0_Standard_Requests$1257                             03D1 GR
+ 16 A$F3xx_USB0_Standard_Requests$1270                             03D2 GR
+ 16 A$F3xx_USB0_Standard_Requests$1271                             03D4 GR
+ 16 A$F3xx_USB0_Standard_Requests$1272                             03D7 GR
+ 16 A$F3xx_USB0_Standard_Requests$1276                             03D9 GR
+ 16 A$F3xx_USB0_Standard_Requests$1277                             03DB GR
+ 16 A$F3xx_USB0_Standard_Requests$1280                             03DD GR
+ 16 A$F3xx_USB0_Standard_Requests$1281                             03DF GR
+ 16 A$F3xx_USB0_Standard_Requests$1282                             03E1 GR
+ 16 A$F3xx_USB0_Standard_Requests$1283                             03E3 GR
+ 16 A$F3xx_USB0_Standard_Requests$1286                             03E5 GR
+ 16 A$F3xx_USB0_Standard_Requests$1287                             03E7 GR
+ 16 A$F3xx_USB0_Standard_Requests$1288                             03E9 GR
+ 16 A$F3xx_USB0_Standard_Requests$1289                             03EB GR
+ 16 A$F3xx_USB0_Standard_Requests$1292                             03ED GR
+ 16 A$F3xx_USB0_Standard_Requests$1293                             03EF GR
+ 16 A$F3xx_USB0_Standard_Requests$1294                             03F1 GR
+ 16 A$F3xx_USB0_Standard_Requests$1295                             03F3 GR
+ 16 A$F3xx_USB0_Standard_Requests$1296                             03F4 GR
+ 16 A$F3xx_USB0_Standard_Requests$1297                             03F6 GR
+ 16 A$F3xx_USB0_Standard_Requests$1301                             03F8 GR
+ 16 A$F3xx_USB0_Standard_Requests$1302                             03FB GR
+ 16 A$F3xx_USB0_Standard_Requests$1306                             03FD GR
+ 16 A$F3xx_USB0_Standard_Requests$1307                             03FE GR
+ 16 A$F3xx_USB0_Standard_Requests$1310                             0400 GR
+ 16 A$F3xx_USB0_Standard_Requests$1313                             0403 GR
+ 16 A$F3xx_USB0_Standard_Requests$1317                             0406 GR
+ 16 A$F3xx_USB0_Standard_Requests$1318                             0408 GR
+ 16 A$F3xx_USB0_Standard_Requests$1319                             040B GR
+ 16 A$F3xx_USB0_Standard_Requests$1320                             040E GR
+ 16 A$F3xx_USB0_Standard_Requests$1324                             0411 GR
+ 16 A$F3xx_USB0_Standard_Requests$1325                             0413 GR
+ 16 A$F3xx_USB0_Standard_Requests$1326                             0416 GR
+ 16 A$F3xx_USB0_Standard_Requests$1327                             0419 GR
+ 16 A$F3xx_USB0_Standard_Requests$1331                             041C GR
+ 16 A$F3xx_USB0_Standard_Requests$1332                             041E GR
+ 16 A$F3xx_USB0_Standard_Requests$1333                             0421 GR
+ 16 A$F3xx_USB0_Standard_Requests$1334                             0424 GR
+ 16 A$F3xx_USB0_Standard_Requests$1337                             0427 GR
+ 16 A$F3xx_USB0_Standard_Requests$1338                             042A GR
+ 16 A$F3xx_USB0_Standard_Requests$1342                             042C GR
+ 16 A$F3xx_USB0_Standard_Requests$1345                             042F GR
+ 16 A$F3xx_USB0_Standard_Requests$1349                             0432 GR
+ 16 A$F3xx_USB0_Standard_Requests$1350                             0434 GR
+ 16 A$F3xx_USB0_Standard_Requests$1351                             0437 GR
+ 16 A$F3xx_USB0_Standard_Requests$1356                             0439 GR
+ 16 A$F3xx_USB0_Standard_Requests$1357                             043B GR
+ 16 A$F3xx_USB0_Standard_Requests$1358                             043E GR
+ 16 A$F3xx_USB0_Standard_Requests$1359                             0441 GR
+ 16 A$F3xx_USB0_Standard_Requests$1363                             0444 GR
+ 16 A$F3xx_USB0_Standard_Requests$1376                             0445 GR
+ 16 A$F3xx_USB0_Standard_Requests$1377                             0447 GR
+ 16 A$F3xx_USB0_Standard_Requests$1380                             044A GR
+ 16 A$F3xx_USB0_Standard_Requests$1381                             044C GR
+ 16 A$F3xx_USB0_Standard_Requests$1384                             044F GR
+ 16 A$F3xx_USB0_Standard_Requests$1385                             0451 GR
+ 16 A$F3xx_USB0_Standard_Requests$1386                             0453 GR
+ 16 A$F3xx_USB0_Standard_Requests$1387                             0455 GR
+ 16 A$F3xx_USB0_Standard_Requests$1390                             0457 GR
+ 16 A$F3xx_USB0_Standard_Requests$1391                             0459 GR
+ 16 A$F3xx_USB0_Standard_Requests$1392                             045B GR
+ 16 A$F3xx_USB0_Standard_Requests$1393                             045D GR
+ 16 A$F3xx_USB0_Standard_Requests$1396                             045F GR
+ 16 A$F3xx_USB0_Standard_Requests$1397                             0461 GR
+ 16 A$F3xx_USB0_Standard_Requests$1398                             0463 GR
+ 16 A$F3xx_USB0_Standard_Requests$1399                             0465 GR
+ 16 A$F3xx_USB0_Standard_Requests$1400                             0468 GR
+ 16 A$F3xx_USB0_Standard_Requests$1405                             046A GR
+ 16 A$F3xx_USB0_Standard_Requests$1406                             046D GR
+ 16 A$F3xx_USB0_Standard_Requests$1410                             046F GR
+ 16 A$F3xx_USB0_Standard_Requests$1411                             0472 GR
+ 16 A$F3xx_USB0_Standard_Requests$1412                             0475 GR
+ 16 A$F3xx_USB0_Standard_Requests$1415                             0478 GR
+ 16 A$F3xx_USB0_Standard_Requests$1416                             047B GR
+ 16 A$F3xx_USB0_Standard_Requests$1420                             047E GR
+ 16 A$F3xx_USB0_Standard_Requests$1421                             0480 GR
+ 16 A$F3xx_USB0_Standard_Requests$1422                             0483 GR
+ 16 A$F3xx_USB0_Standard_Requests$1427                             0485 GR
+ 16 A$F3xx_USB0_Standard_Requests$1428                             0487 GR
+ 16 A$F3xx_USB0_Standard_Requests$1429                             048A GR
+ 16 A$F3xx_USB0_Standard_Requests$1430                             048D GR
+ 16 A$F3xx_USB0_Standard_Requests$1433                             0490 GR
+ 16 A$F3xx_USB0_Standard_Requests$1436                             0493 GR
+ 16 A$F3xx_USB0_Standard_Requests$1437                             0494 GR
+ 16 A$F3xx_USB0_Standard_Requests$1438                             0496 GR
+ 16 A$F3xx_USB0_Standard_Requests$1442                             0498 GR
+ 16 A$F3xx_USB0_Standard_Requests$1455                             0499 GR
+ 16 A$F3xx_USB0_Standard_Requests$1456                             049B GR
+ 16 A$F3xx_USB0_Standard_Requests$1459                             049E GR
+ 16 A$F3xx_USB0_Standard_Requests$1460                             04A0 GR
+ 16 A$F3xx_USB0_Standard_Requests$1461                             04A2 GR
+ 16 A$F3xx_USB0_Standard_Requests$1462                             04A4 GR
+ 16 A$F3xx_USB0_Standard_Requests$1465                             04A6 GR
+ 16 A$F3xx_USB0_Standard_Requests$1466                             04A8 GR
+ 16 A$F3xx_USB0_Standard_Requests$1467                             04AA GR
+ 16 A$F3xx_USB0_Standard_Requests$1468                             04AC GR
+ 16 A$F3xx_USB0_Standard_Requests$1471                             04AE GR
+ 16 A$F3xx_USB0_Standard_Requests$1472                             04B0 GR
+ 16 A$F3xx_USB0_Standard_Requests$1473                             04B2 GR
+ 16 A$F3xx_USB0_Standard_Requests$1474                             04B4 GR
+ 16 A$F3xx_USB0_Standard_Requests$1478                             04B6 GR
+ 16 A$F3xx_USB0_Standard_Requests$1482                             04B9 GR
+ 16 A$F3xx_USB0_Standard_Requests$1483                             04BB GR
+ 16 A$F3xx_USB0_Standard_Requests$1484                             04BE GR
+ 16 A$F3xx_USB0_Standard_Requests$1489                             04C0 GR
+ 16 A$F3xx_USB0_Standard_Requests$1490                             04C2 GR
+ 16 A$F3xx_USB0_Standard_Requests$1491                             04C5 GR
+ 16 A$F3xx_USB0_Standard_Requests$1492                             04C8 GR
+ 16 A$F3xx_USB0_Standard_Requests$1496                             04CB GR
+ 16 A$F3xx_USB0_Standard_Requests$1511                             04CC GR
+ 16 A$F3xx_USB0_Standard_Requests$1524                             04CD GR
+ 16 A$F3xx_USB0_Standard_Requests$1537                             04CE GR
+ 16 A$F3xx_USB0_Standard_Requests$1550                             04CF GR
+ 16 A$F3xx_USB0_Standard_Requests$1551                             04D1 GR
+ 16 A$F3xx_USB0_Standard_Requests$1552                             04D4 GR
+ 16 A$F3xx_USB0_Standard_Requests$1557                             04D6 GR
+ 16 A$F3xx_USB0_Standard_Requests$1558                             04D8 GR
+ 16 A$F3xx_USB0_Standard_Requests$1559                             04DB GR
+ 16 A$F3xx_USB0_Standard_Requests$1560                             04DE GR
+ 16 A$F3xx_USB0_Standard_Requests$1564                             04E1 GR
+ 16 A$F3xx_USB0_Standard_Requests$1577                             04E2 GR
+ 16 A$F3xx_USB0_Standard_Requests$1578                             04E5 GR
+ 16 A$F3xx_USB0_Standard_Requests$1581                             04E8 GR
+ 16 A$F3xx_USB0_Standard_Requests$1582                             04EB GR
+ 16 A$F3xx_USB0_Standard_Requests$1583                             04EE GR
+ 16 A$F3xx_USB0_Standard_Requests$1586                             04F1 GR
+ 16 A$F3xx_USB0_Standard_Requests$1587                             04F4 GR
+ 16 A$F3xx_USB0_Standard_Requests$1590                             04F7 GR
+ 16 A$F3xx_USB0_Standard_Requests$1591                             04F9 GR
+ 16 A$F3xx_USB0_Standard_Requests$1592                             04FC GR
+ 16 A$F3xx_USB0_Standard_Requests$1597                             04FE GR
+ 16 A$F3xx_USB0_Standard_Requests$1598                             0500 GR
+ 16 A$F3xx_USB0_Standard_Requests$1599                             0503 GR
+ 16 A$F3xx_USB0_Standard_Requests$1600                             0506 GR
+ 16 A$F3xx_USB0_Standard_Requests$1603                             0509 GR
+ 16 A$F3xx_USB0_Standard_Requests$1606                             050C GR
+ 16 A$F3xx_USB0_Standard_Requests$1607                             050D GR
+ 16 A$F3xx_USB0_Standard_Requests$1608                             050F GR
+ 16 A$F3xx_USB0_Standard_Requests$1612                             0511 GR
+ 16 A$F3xx_USB0_Standard_Requests$1625                             0512 GR
+ 16 A$F3xx_USB0_Standard_Requests$1628                             0515 GR
+ 16 A$F3xx_USB0_Standard_Requests$1629                             0518 GR
+ 16 A$F3xx_USB0_Standard_Requests$1630                             051B GR
+ 16 A$F3xx_USB0_Standard_Requests$1633                             051E GR
+ 16 A$F3xx_USB0_Standard_Requests$1634                             0521 GR
+ 16 A$F3xx_USB0_Standard_Requests$1637                             0524 GR
+ 16 A$F3xx_USB0_Standard_Requests$1638                             0526 GR
+ 16 A$F3xx_USB0_Standard_Requests$1639                             0529 GR
+ 16 A$F3xx_USB0_Standard_Requests$1644                             052B GR
+ 16 A$F3xx_USB0_Standard_Requests$1645                             052D GR
+ 16 A$F3xx_USB0_Standard_Requests$1646                             0530 GR
+ 16 A$F3xx_USB0_Standard_Requests$1647                             0533 GR
+ 16 A$F3xx_USB0_Standard_Requests$1650                             0536 GR
+ 16 A$F3xx_USB0_Standard_Requests$1653                             0539 GR
+ 16 A$F3xx_USB0_Standard_Requests$1654                             053A GR
+ 16 A$F3xx_USB0_Standard_Requests$1655                             053C GR
+ 16 A$F3xx_USB0_Standard_Requests$1659                             053E GR
+ 16 A$F3xx_USB0_Standard_Requests$385                              0000 GR
+ 16 A$F3xx_USB0_Standard_Requests$386                              0002 GR
+ 16 A$F3xx_USB0_Standard_Requests$387                              0004 GR
+ 16 A$F3xx_USB0_Standard_Requests$388                              0006 GR
+ 16 A$F3xx_USB0_Standard_Requests$391                              0008 GR
+ 16 A$F3xx_USB0_Standard_Requests$392                              000A GR
+ 16 A$F3xx_USB0_Standard_Requests$393                              000C GR
+ 16 A$F3xx_USB0_Standard_Requests$394                              000E GR
+ 16 A$F3xx_USB0_Standard_Requests$395                              0011 GR
+ 16 A$F3xx_USB0_Standard_Requests$400                              0013 GR
+ 16 A$F3xx_USB0_Standard_Requests$404                              0016 GR
+ 16 A$F3xx_USB0_Standard_Requests$405                              0018 GR
+ 16 A$F3xx_USB0_Standard_Requests$406                              001B GR
+ 16 A$F3xx_USB0_Standard_Requests$408                              001D GR
+ 16 A$F3xx_USB0_Standard_Requests$409                              0020 GR
+ 16 A$F3xx_USB0_Standard_Requests$411                              0022 GR
+ 16 A$F3xx_USB0_Standard_Requests$412                              0025 GR
+ 16 A$F3xx_USB0_Standard_Requests$414                              0027 GR
+ 16 A$F3xx_USB0_Standard_Requests$420                              002A GR
+ 16 A$F3xx_USB0_Standard_Requests$421                              002C GR
+ 16 A$F3xx_USB0_Standard_Requests$422                              002E GR
+ 16 A$F3xx_USB0_Standard_Requests$423                              0030 GR
+ 16 A$F3xx_USB0_Standard_Requests$427                              0032 GR
+ 16 A$F3xx_USB0_Standard_Requests$428                              0035 GR
+ 16 A$F3xx_USB0_Standard_Requests$432                              0038 GR
+ 16 A$F3xx_USB0_Standard_Requests$433                              003B GR
+ 16 A$F3xx_USB0_Standard_Requests$434                              003E GR
+ 16 A$F3xx_USB0_Standard_Requests$437                              0041 GR
+ 16 A$F3xx_USB0_Standard_Requests$438                              0044 GR
+ 16 A$F3xx_USB0_Standard_Requests$441                              0047 GR
+ 16 A$F3xx_USB0_Standard_Requests$447                              004A GR
+ 16 A$F3xx_USB0_Standard_Requests$448                              004C GR
+ 16 A$F3xx_USB0_Standard_Requests$451                              004F GR
+ 16 A$F3xx_USB0_Standard_Requests$452                              0051 GR
+ 16 A$F3xx_USB0_Standard_Requests$453                              0053 GR
+ 16 A$F3xx_USB0_Standard_Requests$454                              0055 GR
+ 16 A$F3xx_USB0_Standard_Requests$458                              0057 GR
+ 16 A$F3xx_USB0_Standard_Requests$459                              005A GR
+ 16 A$F3xx_USB0_Standard_Requests$463                              005C GR
+ 16 A$F3xx_USB0_Standard_Requests$464                              005F GR
+ 16 A$F3xx_USB0_Standard_Requests$465                              0062 GR
+ 16 A$F3xx_USB0_Standard_Requests$468                              0065 GR
+ 16 A$F3xx_USB0_Standard_Requests$469                              0068 GR
+ 16 A$F3xx_USB0_Standard_Requests$474                              006B GR
+ 16 A$F3xx_USB0_Standard_Requests$478                              006D GR
+ 16 A$F3xx_USB0_Standard_Requests$479                              006F GR
+ 16 A$F3xx_USB0_Standard_Requests$482                              0072 GR
+ 16 A$F3xx_USB0_Standard_Requests$483                              0074 GR
+ 16 A$F3xx_USB0_Standard_Requests$487                              0076 GR
+ 16 A$F3xx_USB0_Standard_Requests$488                              0079 GR
+ 16 A$F3xx_USB0_Standard_Requests$492                              007B GR
+ 16 A$F3xx_USB0_Standard_Requests$493                              007D GR
+ 16 A$F3xx_USB0_Standard_Requests$496                              0080 GR
+ 16 A$F3xx_USB0_Standard_Requests$497                              0082 GR
+ 16 A$F3xx_USB0_Standard_Requests$500                              0085 GR
+ 16 A$F3xx_USB0_Standard_Requests$501                              0088 GR
+ 16 A$F3xx_USB0_Standard_Requests$502                              008B GR
+ 16 A$F3xx_USB0_Standard_Requests$505                              008E GR
+ 16 A$F3xx_USB0_Standard_Requests$506                              0091 GR
+ 16 A$F3xx_USB0_Standard_Requests$507                              0094 GR
+ 16 A$F3xx_USB0_Standard_Requests$511                              0096 GR
+ 16 A$F3xx_USB0_Standard_Requests$512                              0099 GR
+ 16 A$F3xx_USB0_Standard_Requests$513                              009C GR
+ 16 A$F3xx_USB0_Standard_Requests$516                              009F GR
+ 16 A$F3xx_USB0_Standard_Requests$517                              00A2 GR
+ 16 A$F3xx_USB0_Standard_Requests$518                              00A5 GR
+ 16 A$F3xx_USB0_Standard_Requests$522                              00A7 GR
+ 16 A$F3xx_USB0_Standard_Requests$527                              00AA GR
+ 16 A$F3xx_USB0_Standard_Requests$531                              00AC GR
+ 16 A$F3xx_USB0_Standard_Requests$537                              00AF GR
+ 16 A$F3xx_USB0_Standard_Requests$538                              00B1 GR
+ 16 A$F3xx_USB0_Standard_Requests$539                              00B4 GR
+ 16 A$F3xx_USB0_Standard_Requests$544                              00B6 GR
+ 16 A$F3xx_USB0_Standard_Requests$545                              00B8 GR
+ 16 A$F3xx_USB0_Standard_Requests$546                              00BB GR
+ 16 A$F3xx_USB0_Standard_Requests$547                              00BE GR
+ 16 A$F3xx_USB0_Standard_Requests$550                              00C1 GR
+ 16 A$F3xx_USB0_Standard_Requests$553                              00C4 GR
+ 16 A$F3xx_USB0_Standard_Requests$554                              00C5 GR
+ 16 A$F3xx_USB0_Standard_Requests$555                              00C7 GR
+ 16 A$F3xx_USB0_Standard_Requests$559                              00C9 GR
+ 16 A$F3xx_USB0_Standard_Requests$572                              00CA GR
+ 16 A$F3xx_USB0_Standard_Requests$573                              00CC GR
+ 16 A$F3xx_USB0_Standard_Requests$576                              00CF GR
+ 16 A$F3xx_USB0_Standard_Requests$577                              00D1 GR
+ 16 A$F3xx_USB0_Standard_Requests$578                              00D2 GR
+ 16 A$F3xx_USB0_Standard_Requests$581                              00D4 GR
+ 16 A$F3xx_USB0_Standard_Requests$582                              00D7 GR
+ 16 A$F3xx_USB0_Standard_Requests$586                              00D9 GR
+ 16 A$F3xx_USB0_Standard_Requests$587                              00DB GR
+ 16 A$F3xx_USB0_Standard_Requests$588                              00DD GR
+ 16 A$F3xx_USB0_Standard_Requests$589                              00DF GR
+ 16 A$F3xx_USB0_Standard_Requests$592                              00E1 GR
+ 16 A$F3xx_USB0_Standard_Requests$593                              00E3 GR
+ 16 A$F3xx_USB0_Standard_Requests$594                              00E5 GR
+ 16 A$F3xx_USB0_Standard_Requests$595                              00E7 GR
+ 16 A$F3xx_USB0_Standard_Requests$599                              00E9 GR
+ 16 A$F3xx_USB0_Standard_Requests$600                              00EC GR
+ 16 A$F3xx_USB0_Standard_Requests$604                              00EE GR
+ 16 A$F3xx_USB0_Standard_Requests$605                              00F0 GR
+ 16 A$F3xx_USB0_Standard_Requests$608                              00F3 GR
+ 16 A$F3xx_USB0_Standard_Requests$609                              00F5 GR
+ 16 A$F3xx_USB0_Standard_Requests$612                              00F7 GR
+ 16 A$F3xx_USB0_Standard_Requests$613                              00F9 GR
+ 16 A$F3xx_USB0_Standard_Requests$614                              00FC GR
+ 16 A$F3xx_USB0_Standard_Requests$615                              00FE GR
+ 16 A$F3xx_USB0_Standard_Requests$617                              0100 GR
+ 16 A$F3xx_USB0_Standard_Requests$619                              0101 GR
+ 16 A$F3xx_USB0_Standard_Requests$620                              0102 GR
+ 16 A$F3xx_USB0_Standard_Requests$623                              0104 GR
+ 16 A$F3xx_USB0_Standard_Requests$624                              0105 GR
+ 16 A$F3xx_USB0_Standard_Requests$628                              0107 GR
+ 16 A$F3xx_USB0_Standard_Requests$629                              0109 GR
+ 16 A$F3xx_USB0_Standard_Requests$630                              010C GR
+ 16 A$F3xx_USB0_Standard_Requests$631                              010F GR
+ 16 A$F3xx_USB0_Standard_Requests$635                              0112 GR
+ 16 A$F3xx_USB0_Standard_Requests$636                              0114 GR
+ 16 A$F3xx_USB0_Standard_Requests$637                              0117 GR
+ 16 A$F3xx_USB0_Standard_Requests$638                              011A GR
+ 16 A$F3xx_USB0_Standard_Requests$641                              011D GR
+ 16 A$F3xx_USB0_Standard_Requests$642                              0120 GR
+ 16 A$F3xx_USB0_Standard_Requests$646                              0122 GR
+ 16 A$F3xx_USB0_Standard_Requests$650                              0125 GR
+ 16 A$F3xx_USB0_Standard_Requests$651                              0127 GR
+ 16 A$F3xx_USB0_Standard_Requests$652                              012A GR
+ 16 A$F3xx_USB0_Standard_Requests$653                              012D GR
+ 16 A$F3xx_USB0_Standard_Requests$656                              0130 GR
+ 16 A$F3xx_USB0_Standard_Requests$657                              0132 GR
+ 16 A$F3xx_USB0_Standard_Requests$658                              0135 GR
+ 16 A$F3xx_USB0_Standard_Requests$663                              0137 GR
+ 16 A$F3xx_USB0_Standard_Requests$664                              0139 GR
+ 16 A$F3xx_USB0_Standard_Requests$665                              013C GR
+ 16 A$F3xx_USB0_Standard_Requests$666                              013F GR
+ 16 A$F3xx_USB0_Standard_Requests$670                              0142 GR
+ 16 A$F3xx_USB0_Standard_Requests$683                              0143 GR
+ 16 A$F3xx_USB0_Standard_Requests$684                              0145 GR
+ 16 A$F3xx_USB0_Standard_Requests$687                              0148 GR
+ 16 A$F3xx_USB0_Standard_Requests$688                              014A GR
+ 16 A$F3xx_USB0_Standard_Requests$689                              014B GR
+ 16 A$F3xx_USB0_Standard_Requests$692                              014D GR
+ 16 A$F3xx_USB0_Standard_Requests$693                              0150 GR
+ 16 A$F3xx_USB0_Standard_Requests$697                              0152 GR
+ 16 A$F3xx_USB0_Standard_Requests$698                              0154 GR
+ 16 A$F3xx_USB0_Standard_Requests$699                              0156 GR
+ 16 A$F3xx_USB0_Standard_Requests$700                              0158 GR
+ 16 A$F3xx_USB0_Standard_Requests$703                              015A GR
+ 16 A$F3xx_USB0_Standard_Requests$704                              015C GR
+ 16 A$F3xx_USB0_Standard_Requests$705                              015E GR
+ 16 A$F3xx_USB0_Standard_Requests$706                              0160 GR
+ 16 A$F3xx_USB0_Standard_Requests$710                              0162 GR
+ 16 A$F3xx_USB0_Standard_Requests$711                              0165 GR
+ 16 A$F3xx_USB0_Standard_Requests$715                              0167 GR
+ 16 A$F3xx_USB0_Standard_Requests$716                              0169 GR
+ 16 A$F3xx_USB0_Standard_Requests$719                              016C GR
+ 16 A$F3xx_USB0_Standard_Requests$720                              016E GR
+ 16 A$F3xx_USB0_Standard_Requests$723                              0170 GR
+ 16 A$F3xx_USB0_Standard_Requests$724                              0172 GR
+ 16 A$F3xx_USB0_Standard_Requests$725                              0173 GR
+ 16 A$F3xx_USB0_Standard_Requests$726                              0176 GR
+ 16 A$F3xx_USB0_Standard_Requests$728                              0177 GR
+ 16 A$F3xx_USB0_Standard_Requests$729                              0178 GR
+ 16 A$F3xx_USB0_Standard_Requests$732                              017A GR
+ 16 A$F3xx_USB0_Standard_Requests$736                              017D GR
+ 16 A$F3xx_USB0_Standard_Requests$737                              017E GR
+ 16 A$F3xx_USB0_Standard_Requests$741                              0180 GR
+ 16 A$F3xx_USB0_Standard_Requests$742                              0182 GR
+ 16 A$F3xx_USB0_Standard_Requests$743                              0185 GR
+ 16 A$F3xx_USB0_Standard_Requests$744                              0188 GR
+ 16 A$F3xx_USB0_Standard_Requests$748                              018B GR
+ 16 A$F3xx_USB0_Standard_Requests$749                              018D GR
+ 16 A$F3xx_USB0_Standard_Requests$750                              0190 GR
+ 16 A$F3xx_USB0_Standard_Requests$751                              0193 GR
+ 16 A$F3xx_USB0_Standard_Requests$754                              0196 GR
+ 16 A$F3xx_USB0_Standard_Requests$755                              0199 GR
+ 16 A$F3xx_USB0_Standard_Requests$759                              019B GR
+ 16 A$F3xx_USB0_Standard_Requests$763                              019E GR
+ 16 A$F3xx_USB0_Standard_Requests$764                              01A0 GR
+ 16 A$F3xx_USB0_Standard_Requests$765                              01A3 GR
+ 16 A$F3xx_USB0_Standard_Requests$766                              01A6 GR
+ 16 A$F3xx_USB0_Standard_Requests$769                              01A9 GR
+ 16 A$F3xx_USB0_Standard_Requests$770                              01AB GR
+ 16 A$F3xx_USB0_Standard_Requests$771                              01AE GR
+ 16 A$F3xx_USB0_Standard_Requests$776                              01B0 GR
+ 16 A$F3xx_USB0_Standard_Requests$777                              01B2 GR
+ 16 A$F3xx_USB0_Standard_Requests$778                              01B5 GR
+ 16 A$F3xx_USB0_Standard_Requests$779                              01B8 GR
+ 16 A$F3xx_USB0_Standard_Requests$783                              01BB GR
+ 16 A$F3xx_USB0_Standard_Requests$796                              01BC GR
+ 16 A$F3xx_USB0_Standard_Requests$797                              01BE GR
+ 16 A$F3xx_USB0_Standard_Requests$800                              01C0 GR
+ 16 A$F3xx_USB0_Standard_Requests$801                              01C2 GR
+ 16 A$F3xx_USB0_Standard_Requests$802                              01C4 GR
+ 16 A$F3xx_USB0_Standard_Requests$803                              01C6 GR
+ 16 A$F3xx_USB0_Standard_Requests$806                              01C8 GR
+ 16 A$F3xx_USB0_Standard_Requests$807                              01CA GR
+ 16 A$F3xx_USB0_Standard_Requests$808                              01CC GR
+ 16 A$F3xx_USB0_Standard_Requests$809                              01CE GR
+ 16 A$F3xx_USB0_Standard_Requests$812                              01D0 GR
+ 16 A$F3xx_USB0_Standard_Requests$813                              01D2 GR
+ 16 A$F3xx_USB0_Standard_Requests$814                              01D4 GR
+ 16 A$F3xx_USB0_Standard_Requests$815                              01D6 GR
+ 16 A$F3xx_USB0_Standard_Requests$819                              01D9 GR
+ 16 A$F3xx_USB0_Standard_Requests$823                              01DC GR
+ 16 A$F3xx_USB0_Standard_Requests$826                              01DF GR
+ 16 A$F3xx_USB0_Standard_Requests$827                              01E1 GR
+ 16 A$F3xx_USB0_Standard_Requests$830                              01E3 GR
+ 16 A$F3xx_USB0_Standard_Requests$831                              01E6 GR
+ 16 A$F3xx_USB0_Standard_Requests$835                              01E8 GR
+ 16 A$F3xx_USB0_Standard_Requests$839                              01EB GR
+ 16 A$F3xx_USB0_Standard_Requests$840                              01ED GR
+ 16 A$F3xx_USB0_Standard_Requests$841                              01F0 GR
+ 16 A$F3xx_USB0_Standard_Requests$846                              01F2 GR
+ 16 A$F3xx_USB0_Standard_Requests$847                              01F4 GR
+ 16 A$F3xx_USB0_Standard_Requests$848                              01F7 GR
+ 16 A$F3xx_USB0_Standard_Requests$849                              01FA GR
+ 16 A$F3xx_USB0_Standard_Requests$853                              01FD GR
+ 16 A$F3xx_USB0_Standard_Requests$866                              01FE GR
+ 16 A$F3xx_USB0_Standard_Requests$867                              0200 GR
+ 16 A$F3xx_USB0_Standard_Requests$868                              0203 GR
+ 16 A$F3xx_USB0_Standard_Requests$870                              0205 GR
+ 16 A$F3xx_USB0_Standard_Requests$871                              0208 GR
+ 16 A$F3xx_USB0_Standard_Requests$873                              020A GR
+ 16 A$F3xx_USB0_Standard_Requests$874                              020D GR
+ 16 A$F3xx_USB0_Standard_Requests$876                              020F GR
+ 16 A$F3xx_USB0_Standard_Requests$877                              0212 GR
+ 16 A$F3xx_USB0_Standard_Requests$879                              0215 GR
+ 16 A$F3xx_USB0_Standard_Requests$880                              0218 GR
+ 16 A$F3xx_USB0_Standard_Requests$882                              021B GR
+ 16 A$F3xx_USB0_Standard_Requests$883                              021E GR
+ 16 A$F3xx_USB0_Standard_Requests$885                              0221 GR
+ 16 A$F3xx_USB0_Standard_Requests$886                              0224 GR
+ 16 A$F3xx_USB0_Standard_Requests$888                              0227 GR
+ 16 A$F3xx_USB0_Standard_Requests$894                              022A GR
+ 16 A$F3xx_USB0_Standard_Requests$895                              022D GR
+ 16 A$F3xx_USB0_Standard_Requests$896                              0230 GR
+ 16 A$F3xx_USB0_Standard_Requests$899                              0233 GR
+ 16 A$F3xx_USB0_Standard_Requests$900                              0236 GR
+ 16 A$F3xx_USB0_Standard_Requests$901                              0237 GR
+ 16 A$F3xx_USB0_Standard_Requests$902                              0238 GR
+ 16 A$F3xx_USB0_Standard_Requests$903                              0239 GR
+ 16 A$F3xx_USB0_Standard_Requests$904                              023B GR
+ 16 A$F3xx_USB0_Standard_Requests$907                              023E GR
+ 16 A$F3xx_USB0_Standard_Requests$913                              0241 GR
+ 16 A$F3xx_USB0_Standard_Requests$914                              0244 GR
+ 16 A$F3xx_USB0_Standard_Requests$915                              0247 GR
+ 16 A$F3xx_USB0_Standard_Requests$918                              024A GR
+ 16 A$F3xx_USB0_Standard_Requests$919                              024D GR
+ 16 A$F3xx_USB0_Standard_Requests$920                              024E GR
+ 16 A$F3xx_USB0_Standard_Requests$921                              024F GR
+ 16 A$F3xx_USB0_Standard_Requests$922                              0250 GR
+ 16 A$F3xx_USB0_Standard_Requests$925                              0252 GR
+ 16 A$F3xx_USB0_Standard_Requests$926                              0255 GR
+ 16 A$F3xx_USB0_Standard_Requests$927                              0256 GR
+ 16 A$F3xx_USB0_Standard_Requests$928                              0257 GR
+ 16 A$F3xx_USB0_Standard_Requests$929                              0258 GR
+ 16 A$F3xx_USB0_Standard_Requests$930                              0259 GR
+ 16 A$F3xx_USB0_Standard_Requests$931                              025A GR
+ 16 A$F3xx_USB0_Standard_Requests$932                              025B GR
+ 16 A$F3xx_USB0_Standard_Requests$933                              025D GR
+ 16 A$F3xx_USB0_Standard_Requests$934                              025E GR
+ 16 A$F3xx_USB0_Standard_Requests$935                              025F GR
+ 16 A$F3xx_USB0_Standard_Requests$938                              0261 GR
+ 16 A$F3xx_USB0_Standard_Requests$944                              0264 GR
+ 16 A$F3xx_USB0_Standard_Requests$945                              0266 GR
+ 16 A$F3xx_USB0_Standard_Requests$946                              0267 GR
+ 16 A$F3xx_USB0_Standard_Requests$947                              0269 GR
+ 16 A$F3xx_USB0_Standard_Requests$950                              026B GR
+ 16 A$F3xx_USB0_Standard_Requests$951                              026E GR
+ 16 A$F3xx_USB0_Standard_Requests$955                              0271 GR
+ 16 A$F3xx_USB0_Standard_Requests$956                              0272 GR
+ 16 A$F3xx_USB0_Standard_Requests$957                              0275 GR
+ 16 A$F3xx_USB0_Standard_Requests$958                              0276 GR
+ 16 A$F3xx_USB0_Standard_Requests$959                              0278 GR
+ 16 A$F3xx_USB0_Standard_Requests$960                              027A GR
+ 16 A$F3xx_USB0_Standard_Requests$961                              027C GR
+ 16 A$F3xx_USB0_Standard_Requests$962                              027E GR
+ 16 A$F3xx_USB0_Standard_Requests$963                              0280 GR
+ 16 A$F3xx_USB0_Standard_Requests$964                              0281 GR
+ 16 A$F3xx_USB0_Standard_Requests$965                              0282 GR
+ 16 A$F3xx_USB0_Standard_Requests$966                              0283 GR
+ 16 A$F3xx_USB0_Standard_Requests$967                              0284 GR
+ 16 A$F3xx_USB0_Standard_Requests$968                              0285 GR
+ 16 A$F3xx_USB0_Standard_Requests$969                              0286 GR
+ 16 A$F3xx_USB0_Standard_Requests$970                              0287 GR
+ 16 A$F3xx_USB0_Standard_Requests$971                              0289 GR
+ 16 A$F3xx_USB0_Standard_Requests$972                              028B GR
+ 16 A$F3xx_USB0_Standard_Requests$975                              028E GR
+ 16 A$F3xx_USB0_Standard_Requests$976                              0290 GR
+ 16 A$F3xx_USB0_Standard_Requests$977                              0292 GR
+ 16 A$F3xx_USB0_Standard_Requests$978                              0294 GR
+ 16 A$F3xx_USB0_Standard_Requests$979                              0296 GR
+ 16 A$F3xx_USB0_Standard_Requests$980                              0298 GR
+ 16 A$F3xx_USB0_Standard_Requests$981                              029A GR
+ 16 A$F3xx_USB0_Standard_Requests$982                              029D GR
+ 16 A$F3xx_USB0_Standard_Requests$983                              029E GR
+ 16 A$F3xx_USB0_Standard_Requests$984                              02A0 GR
+ 16 A$F3xx_USB0_Standard_Requests$987                              02A3 GR
+ 16 A$F3xx_USB0_Standard_Requests$993                              02A6 GR
+ 16 A$F3xx_USB0_Standard_Requests$994                              02A9 GR
+ 16 A$F3xx_USB0_Standard_Requests$995                              02AC GR
+ 16 A$F3xx_USB0_Standard_Requests$998                              02AF GR
+ 16 A$F3xx_USB0_Standard_Requests$999                              02B2 GR
+    A.0                                                            00E0 
+    A.1                                                            00E1 
+    A.2                                                            00E2 
+    A.3                                                            00E3 
+    A.4                                                            00E4 
+    A.5                                                            00E5 
+    A.6                                                            00E6 
+    A.7                                                            00E7 
+    AC                                                             00D6 
+    ACC                                                            00E0 
+    ACC.0                                                          00E0 
+    ACC.1                                                          00E1 
+    ACC.2                                                          00E2 
+    ACC.3                                                          00E3 
+    ACC.4                                                          00E4 
+    ACC.5                                                          00E5 
+    ACC.6                                                          00E6 
+    ACC.7                                                          00E7 
+    B                                                              00F0 
+    B.0                                                            00F0 
+    B.1                                                            00F1 
+    B.2                                                            00F2 
+    B.3                                                            00F3 
+    B.4                                                            00F4 
+    B.5                                                            00F5 
+    B.6                                                            00F6 
+    B.7                                                            00F7 
+ 16 C$F3xx_USB0_Standard_Requests.c$101$0$0                     =  0000 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$104$1$24                    =  0000 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$107$1$24                    =  0008 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$110$2$25                    =  0013 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$113$1$24                    =  0016 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$115$2$26                    =  002A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$116$2$26                    =  002A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$118$3$27                    =  0032 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$124$3$28                    =  0038 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$125$3$28                    =  0041 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$127$2$26                    =  0047 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$129$2$26                    =  004A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$130$2$26                    =  004A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$131$2$26                    =  004F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$135$3$29                    =  0057 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$140$3$30                    =  005C GR
+ 16 C$F3xx_USB0_Standard_Requests.c$141$3$30                    =  0065 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$143$2$26                    =  006B GR
+ 16 C$F3xx_USB0_Standard_Requests.c$145$2$26                    =  006B GR
+ 16 C$F3xx_USB0_Standard_Requests.c$146$2$26                    =  006D GR
+ 16 C$F3xx_USB0_Standard_Requests.c$147$2$26                    =  0072 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$150$3$31                    =  0076 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$155$3$32                    =  007B GR
+ 16 C$F3xx_USB0_Standard_Requests.c$157$4$33                    =  0080 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$160$5$34                    =  0085 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$161$5$34                    =  008E GR
+ 16 C$F3xx_USB0_Standard_Requests.c$166$5$35                    =  0096 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$167$5$35                    =  009F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$172$4$36                    =  00A7 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$176$2$26                    =  00AA GR
+ 16 C$F3xx_USB0_Standard_Requests.c$178$2$26                    =  00AA GR
+ 16 C$F3xx_USB0_Standard_Requests.c$179$2$26                    =  00AC GR
+ 16 C$F3xx_USB0_Standard_Requests.c$181$1$24                    =  00AF GR
+ 16 C$F3xx_USB0_Standard_Requests.c$182$1$24                    =  00AF GR
+ 16 C$F3xx_USB0_Standard_Requests.c$186$2$37                    =  00B6 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$187$2$37                    =  00C1 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$188$2$37                    =  00C4 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$190$1$24                    =  00C9 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$202$1$24                    =  00CA GR
+ 16 C$F3xx_USB0_Standard_Requests.c$206$1$38                    =  00CA GR
+ 16 C$F3xx_USB0_Standard_Requests.c$208$1$38                    =  00CF GR
+ 16 C$F3xx_USB0_Standard_Requests.c$210$1$38                    =  00D4 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$212$1$38                    =  00D9 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$214$1$38                    =  00E1 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$216$2$39                    =  00E9 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$222$2$40                    =  00EE GR
+ 16 C$F3xx_USB0_Standard_Requests.c$224$2$40                    =  00F3 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$226$2$40                    =  00F7 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$228$3$41                    =  0104 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$230$4$42                    =  0107 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$231$4$42                    =  0112 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$232$4$42                    =  011D GR
+ 16 C$F3xx_USB0_Standard_Requests.c$237$3$43                    =  0122 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$240$1$38                    =  0125 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$241$1$38                    =  0130 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$243$2$44                    =  0137 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$248$1$38                    =  0142 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$260$1$38                    =  0143 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$264$1$46                    =  0143 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$266$1$46                    =  0148 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$267$1$46                    =  014D GR
+ 16 C$F3xx_USB0_Standard_Requests.c$268$1$46                    =  0152 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$269$1$46                    =  015A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$271$2$47                    =  0162 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$277$2$48                    =  0167 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$279$2$48                    =  016C GR
+ 16 C$F3xx_USB0_Standard_Requests.c$280$2$48                    =  0170 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$281$2$48                    =  017A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$283$3$49                    =  017D GR
+ 16 C$F3xx_USB0_Standard_Requests.c$285$4$50                    =  0180 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$286$4$50                    =  018B GR
+ 16 C$F3xx_USB0_Standard_Requests.c$287$4$50                    =  0196 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$292$3$51                    =  019B GR
+ 16 C$F3xx_USB0_Standard_Requests.c$295$1$46                    =  019E GR
+ 16 C$F3xx_USB0_Standard_Requests.c$296$1$46                    =  01A9 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$298$2$52                    =  01B0 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$302$1$46                    =  01BB GR
+ 16 C$F3xx_USB0_Standard_Requests.c$314$1$46                    =  01BC GR
+ 16 C$F3xx_USB0_Standard_Requests.c$317$1$54                    =  01BC GR
+ 16 C$F3xx_USB0_Standard_Requests.c$319$1$54                    =  01C0 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$320$1$54                    =  01C8 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$321$1$54                    =  01D0 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$323$2$55                    =  01D9 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$326$1$54                    =  01DC GR
+ 16 C$F3xx_USB0_Standard_Requests.c$328$1$54                    =  01DF GR
+ 16 C$F3xx_USB0_Standard_Requests.c$330$2$56                    =  01E3 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$335$2$57                    =  01E8 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$337$1$54                    =  01EB GR
+ 16 C$F3xx_USB0_Standard_Requests.c$339$2$58                    =  01F2 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$343$1$54                    =  01FD GR
+ 16 C$F3xx_USB0_Standard_Requests.c$355$1$54                    =  01FE GR
+ 16 C$F3xx_USB0_Standard_Requests.c$359$1$60                    =  01FE GR
+ 16 C$F3xx_USB0_Standard_Requests.c$361$2$61                    =  022A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$362$2$61                    =  022A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$363$2$61                    =  0233 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$364$2$61                    =  023E GR
+ 16 C$F3xx_USB0_Standard_Requests.c$366$2$61                    =  0241 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$367$2$61                    =  0241 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$371$2$61                    =  024A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$372$2$61                    =  0252 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$373$2$61                    =  0261 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$375$2$61                    =  0264 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$378$2$61                    =  0264 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$380$3$62                    =  026B GR
+ 16 C$F3xx_USB0_Standard_Requests.c$384$3$63                    =  0271 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$386$3$63                    =  028E GR
+ 16 C$F3xx_USB0_Standard_Requests.c$388$2$61                    =  02A3 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$390$2$61                    =  02A6 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$391$2$61                    =  02A6 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$392$2$61                    =  02AF GR
+ 16 C$F3xx_USB0_Standard_Requests.c$393$2$61                    =  02BA GR
+ 16 C$F3xx_USB0_Standard_Requests.c$395$2$61                    =  02BA GR
+ 16 C$F3xx_USB0_Standard_Requests.c$400$2$61                    =  02BC GR
+ 16 C$F3xx_USB0_Standard_Requests.c$402$3$64                    =  02C1 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$403$3$64                    =  02CA GR
+ 16 C$F3xx_USB0_Standard_Requests.c$405$2$61                    =  02D7 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$407$3$65                    =  02DA GR
+ 16 C$F3xx_USB0_Standard_Requests.c$408$3$65                    =  02E3 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$412$3$66                    =  02F0 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$414$2$61                    =  02F3 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$416$2$61                    =  02F3 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$417$2$61                    =  02F5 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$418$2$61                    =  02FE GR
+ 16 C$F3xx_USB0_Standard_Requests.c$419$2$61                    =  0309 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$421$2$61                    =  0309 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$422$2$61                    =  030B GR
+ 16 C$F3xx_USB0_Standard_Requests.c$423$2$61                    =  0314 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$424$2$61                    =  031A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$426$2$61                    =  031A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$427$2$61                    =  031C GR
+ 16 C$F3xx_USB0_Standard_Requests.c$429$1$60                    =  031F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$432$1$60                    =  031F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$433$1$60                    =  0326 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$434$1$60                    =  032B GR
+ 16 C$F3xx_USB0_Standard_Requests.c$435$1$60                    =  0330 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$436$1$60                    =  0335 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$438$2$67                    =  0338 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$439$2$67                    =  0345 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$441$3$68                    =  0349 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$444$1$60                    =  034F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$446$2$69                    =  0356 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$447$2$69                    =  0361 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$448$2$69                    =  0364 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$450$1$60                    =  0369 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$462$1$60                    =  036A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$465$1$71                    =  036A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$467$1$71                    =  036F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$469$1$71                    =  0377 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$471$1$71                    =  037F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$473$2$72                    =  038A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$478$2$73                    =  038F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$481$3$74                    =  0394 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$482$3$74                    =  039D GR
+ 16 C$F3xx_USB0_Standard_Requests.c$484$2$73                    =  03A3 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$486$3$75                    =  03A8 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$487$3$75                    =  03B1 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$490$1$71                    =  03B7 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$493$2$76                    =  03BE GR
+ 16 C$F3xx_USB0_Standard_Requests.c$494$2$76                    =  03C9 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$495$2$76                    =  03CC GR
+ 16 C$F3xx_USB0_Standard_Requests.c$497$1$71                    =  03D1 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$509$1$71                    =  03D2 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$513$1$78                    =  03D2 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$515$1$78                    =  03D9 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$517$1$78                    =  03DD GR
+ 16 C$F3xx_USB0_Standard_Requests.c$518$1$78                    =  03E5 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$519$1$78                    =  03ED GR
+ 16 C$F3xx_USB0_Standard_Requests.c$522$2$79                    =  03F8 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$527$2$80                    =  03FD GR
+ 16 C$F3xx_USB0_Standard_Requests.c$530$3$81                    =  0400 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$531$3$81                    =  0403 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$533$3$81                    =  0406 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$535$3$81                    =  0411 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$536$3$81                    =  041C GR
+ 16 C$F3xx_USB0_Standard_Requests.c$538$3$81                    =  0427 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$542$3$82                    =  042C GR
+ 16 C$F3xx_USB0_Standard_Requests.c$543$3$82                    =  042F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$547$1$78                    =  0432 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$549$2$83                    =  0439 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$553$1$78                    =  0444 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$565$1$78                    =  0445 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$570$1$85                    =  0445 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$572$1$85                    =  044A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$574$1$85                    =  044F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$576$1$85                    =  0457 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$577$1$85                    =  045F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$579$2$86                    =  046A GR
+ 16 C$F3xx_USB0_Standard_Requests.c$586$2$87                    =  046F GR
+ 16 C$F3xx_USB0_Standard_Requests.c$587$2$87                    =  0478 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$589$1$85                    =  047E GR
+ 16 C$F3xx_USB0_Standard_Requests.c$593$2$88                    =  0485 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$594$2$88                    =  0490 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$595$2$88                    =  0493 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$597$1$85                    =  0498 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$609$1$85                    =  0499 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$612$1$90                    =  0499 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$614$1$90                    =  049E GR
+ 16 C$F3xx_USB0_Standard_Requests.c$615$1$90                    =  04A6 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$616$1$90                    =  04AE GR
+ 16 C$F3xx_USB0_Standard_Requests.c$618$2$91                    =  04B6 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$620$1$90                    =  04B9 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$622$2$92                    =  04C0 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$626$1$90                    =  04CB GR
+ 16 C$F3xx_USB0_Standard_Requests.c$634$1$90                    =  04CC GR
+ 16 C$F3xx_USB0_Standard_Requests.c$635$1$90                    =  04CC GR
+ 16 C$F3xx_USB0_Standard_Requests.c$645$1$90                    =  04CD GR
+ 16 C$F3xx_USB0_Standard_Requests.c$653$1$90                    =  04CE GR
+ 16 C$F3xx_USB0_Standard_Requests.c$666$1$90                    =  04CF GR
+ 16 C$F3xx_USB0_Standard_Requests.c$669$1$100                   =  04CF GR
+ 16 C$F3xx_USB0_Standard_Requests.c$672$2$101                   =  04D6 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$675$1$100                   =  04E1 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$689$1$100                   =  04E2 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$692$1$103                   =  04E2 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$694$1$103                   =  04E8 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$695$1$103                   =  04F1 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$697$1$103                   =  04F7 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$700$2$104                   =  04FE GR
+ 16 C$F3xx_USB0_Standard_Requests.c$701$2$104                   =  0509 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$702$2$104                   =  050C GR
+ 16 C$F3xx_USB0_Standard_Requests.c$704$1$103                   =  0511 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$718$1$103                   =  0512 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$721$1$106                   =  0512 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$724$1$106                   =  0515 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$725$1$106                   =  051E GR
+ 16 C$F3xx_USB0_Standard_Requests.c$727$1$106                   =  0524 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$730$2$107                   =  052B GR
+ 16 C$F3xx_USB0_Standard_Requests.c$731$2$107                   =  0536 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$732$2$107                   =  0539 GR
+ 16 C$F3xx_USB0_Standard_Requests.c$734$1$106                   =  053E GR
+    CPRL2                                                          00C8 
+    CT2                                                            00C9 
+    CY                                                             00D7 
+    DPH                                                            0083 
+    DPL                                                            0082 
+    EA                                                             00AF 
+    ES                                                             00AC 
+    ET0                                                            00A9 
+    ET1                                                            00AB 
+    ET2                                                            00AD 
+    EX0                                                            00A8 
+    EX1                                                            00AA 
+    EXEN2                                                          00CB 
+    EXF2                                                           00CE 
+    F0                                                             00D5 
+    G$AC$0$0                                                    =  00D6 G
+    G$ACC$0$0                                                   =  00E0 G
+    G$B$0$0                                                     =  00F0 G
+    G$CKCON$0$0                                                 =  008E G
+    G$CLKMUL$0$0                                                =  00B9 G
+    G$CLKSEL$0$0                                                =  00A9 G
+    G$CY$0$0                                                    =  00D7 G
+ 16 G$Clear_Feature$0$0                                         =  00CA GR
+    G$DP$0$0                                                    =  8382 G
+    G$DPH$0$0                                                   =  0083 G
+    G$DPL$0$0                                                   =  0082 G
+    G$EA$0$0                                                    =  00AF G
+    G$EIE1$0$0                                                  =  00E6 G
+    G$EIE2$0$0                                                  =  00E7 G
+    G$EIP1$0$0                                                  =  00F6 G
+    G$EIP2$0$0                                                  =  00F7 G
+    G$EMI0CN$0$0                                                =  00AA G
+    G$ES0$0$0                                                   =  00AC G
+    G$ET0$0$0                                                   =  00A9 G
+    G$ET1$0$0                                                   =  00AB G
+    G$EX0$0$0                                                   =  00A8 G
+    G$EX1$0$0                                                   =  00AA G
+    G$F0$0$0                                                    =  00D5 G
+    G$F1$0$0                                                    =  00D1 G
+    G$FLKEY$0$0                                                 =  00B7 G
+    G$FLSCL$0$0                                                 =  00B6 G
+    G$GPIOCN$0$0                                                =  00E2 G
+ 16 G$Get_Configuration$0$0                                     =  036A GR
+ 16 G$Get_Descriptor$0$0                                        =  01FE GR
+ 16 G$Get_Idle$0$0                                              =  04CC GR
+ 16 G$Get_Interface$0$0                                         =  0445 GR
+ 16 G$Get_Protocol$0$0                                          =  04CD GR
+ 16 G$Get_Report$0$0                                            =  04E2 GR
+ 16 G$Get_Status$0$0                                            =  0000 GR
+    G$IE$0$0                                                    =  00A8 G
+    G$IE0$0$0                                                   =  0089 G
+    G$IE1$0$0                                                   =  008B G
+    G$IP$0$0                                                    =  00B8 G
+    G$IT0$0$0                                                   =  0088 G
+    G$IT1$0$0                                                   =  008A G
+ 17 G$ONES_PACKET$0$0                                           =  0000 GR
+    G$OSCICL$0$0                                                =  00B3 G
+    G$OSCICN$0$0                                                =  00B2 G
+    G$OSCLCN$0$0                                                =  00E3 G
+    G$OV$0$0                                                    =  00D2 G
+    G$OVR0$0$0                                                  =  009F G
+    G$P$0$0                                                     =  00D0 G
+    G$P0$0$0                                                    =  0080 G
+    G$P0MDOUT$0$0                                               =  00A4 G
+    G$P2$0$0                                                    =  00A0 G
+    G$P2MDOUT$0$0                                               =  00A6 G
+    G$P3$0$0                                                    =  00B0 G
+    G$P3MDOUT$0$0                                               =  00A7 G
+    G$PCON$0$0                                                  =  0087 G
+    G$PERR0$0$0                                                 =  009F G
+    G$PS0$0$0                                                   =  00BC G
+    G$PSCTL$0$0                                                 =  008F G
+    G$PSW$0$0                                                   =  00D0 G
+    G$PT0$0$0                                                   =  00B9 G
+    G$PT1$0$0                                                   =  00BB G
+    G$PX0$0$0                                                   =  00B8 G
+    G$PX1$0$0                                                   =  00BA G
+    G$RBX0$0$0                                                  =  009A G
+    G$REG0CN$0$0                                                =  00C9 G
+    G$REN0$0$0                                                  =  009C G
+    G$RI0$0$0                                                   =  0098 G
+    G$RS0$0$0                                                   =  00D3 G
+    G$RS1$0$0                                                   =  00D4 G
+    G$RSTSRC$0$0                                                =  00EF G
+    G$SBCON0$0$0                                                =  0091 G
+    G$SBRL0$0$0                                                 =  9493 G
+    G$SBRLH0$0$0                                                =  0094 G
+    G$SBRLL0$0$0                                                =  0093 G
+    G$SBUF0$0$0                                                 =  0099 G
+    G$SCON0$0$0                                                 =  0098 G
+    G$SMOD0$0$0                                                 =  009A G
+    G$SP$0$0                                                    =  0081 G
+ 16 G$Set_Address$0$0                                           =  01BC GR
+ 16 G$Set_Configuration$0$0                                     =  03D2 GR
+ 16 G$Set_Feature$0$0                                           =  0143 GR
+ 16 G$Set_Idle$0$0                                              =  04CF GR
+ 16 G$Set_Interface$0$0                                         =  0499 GR
+ 16 G$Set_Protocol$0$0                                          =  04CE GR
+ 16 G$Set_Report$0$0                                            =  0512 GR
+    G$TBX0$0$0                                                  =  009B G
+    G$TCON$0$0                                                  =  0088 G
+    G$TF0$0$0                                                   =  008D G
+    G$TF1$0$0                                                   =  008F G
+    G$TH0$0$0                                                   =  008C G
+    G$TH1$0$0                                                   =  008D G
+    G$TI0$0$0                                                   =  0099 G
+    G$TL0$0$0                                                   =  008A G
+    G$TL1$0$0                                                   =  008B G
+    G$TMOD$0$0                                                  =  0089 G
+    G$TR0$0$0                                                   =  008C G
+    G$TR1$0$0                                                   =  008E G
+    G$USB0ADR$0$0                                               =  0096 G
+    G$USB0DAT$0$0                                               =  0097 G
+    G$USB0XCN$0$0                                               =  00D7 G
+    G$VDM0CN$0$0                                                =  00FF G
+ 17 G$ZERO_PACKET$0$0                                           =  0002 GR
+    G$_XPAGE$0$0                                                =  00AA G
+    IE                                                             00A8 
+    IE.0                                                           00A8 
+    IE.1                                                           00A9 
+    IE.2                                                           00AA 
+    IE.3                                                           00AB 
+    IE.4                                                           00AC 
+    IE.5                                                           00AD 
+    IE.7                                                           00AF 
+    IE0                                                            0089 
+    IE1                                                            008B 
+    INT0                                                           00B2 
+    INT1                                                           00B3 
+    IP                                                             00B8 
+    IP.0                                                           00B8 
+    IP.1                                                           00B9 
+    IP.2                                                           00BA 
+    IP.3                                                           00BB 
+    IP.4                                                           00BC 
+    IP.5                                                           00BD 
+    IT0                                                            0088 
+    IT1                                                            008A 
+    OV                                                             00D2 
+    P                                                              00D0 
+    P0                                                             0080 
+    P0.0                                                           0080 
+    P0.1                                                           0081 
+    P0.2                                                           0082 
+    P0.3                                                           0083 
+    P0.4                                                           0084 
+    P0.5                                                           0085 
+    P0.6                                                           0086 
+    P0.7                                                           0087 
+    P1                                                             0090 
+    P1.0                                                           0090 
+    P1.1                                                           0091 
+    P1.2                                                           0092 
+    P1.3                                                           0093 
+    P1.4                                                           0094 
+    P1.5                                                           0095 
+    P1.6                                                           0096 
+    P1.7                                                           0097 
+    P2                                                             00A0 
+    P2.0                                                           00A0 
+    P2.1                                                           00A1 
+    P2.2                                                           00A2 
+    P2.3                                                           00A3 
+    P2.4                                                           00A4 
+    P2.5                                                           00A5 
+    P2.6                                                           00A6 
+    P2.7                                                           00A7 
+    P3                                                             00B0 
+    P3.0                                                           00B0 
+    P3.1                                                           00B1 
+    P3.2                                                           00B2 
+    P3.3                                                           00B3 
+    P3.4                                                           00B4 
+    P3.5                                                           00B5 
+    P3.6                                                           00B6 
+    P3.7                                                           00B7 
+    PCON                                                           0087 
+    PS                                                             00BC 
+    PSW                                                            00D0 
+    PSW.0                                                          00D0 
+    PSW.1                                                          00D1 
+    PSW.2                                                          00D2 
+    PSW.3                                                          00D3 
+    PSW.4                                                          00D4 
+    PSW.5                                                          00D5 
+    PSW.6                                                          00D6 
+    PSW.7                                                          00D7 
+    PT0                                                            00B9 
+    PT1                                                            00BB 
+    PT2                                                            00BD 
+    PX0                                                            00B8 
+    PX1                                                            00BA 
+    RB8                                                            009A 
+    RCAP2H                                                         00CB 
+    RCAP2L                                                         00CA 
+    RCLK                                                           00CD 
+    REN                                                            009C 
+    RI                                                             0098 
+    RS0                                                            00D3 
+    RS1                                                            00D4 
+    RXD                                                            00B0 
+    SBUF                                                           0099 
+    SCON                                                           0098 
+    SCON.0                                                         0098 
+    SCON.1                                                         0099 
+    SCON.2                                                         009A 
+    SCON.3                                                         009B 
+    SCON.4                                                         009C 
+    SCON.5                                                         009D 
+    SCON.6                                                         009E 
+    SCON.7                                                         009F 
+    SM0                                                            009F 
+    SM1                                                            009E 
+    SM2                                                            009D 
+    SP                                                             0081 
+    T2CON                                                          00C8 
+    T2CON.0                                                        00C8 
+    T2CON.1                                                        00C9 
+    T2CON.2                                                        00CA 
+    T2CON.3                                                        00CB 
+    T2CON.4                                                        00CC 
+    T2CON.5                                                        00CD 
+    T2CON.6                                                        00CE 
+    T2CON.7                                                        00CF 
+    TB8                                                            009B 
+    TCLK                                                           00CC 
+    TCON                                                           0088 
+    TCON.0                                                         0088 
+    TCON.1                                                         0089 
+    TCON.2                                                         008A 
+    TCON.3                                                         008B 
+    TCON.4                                                         008C 
+    TCON.5                                                         008D 
+    TCON.6                                                         008E 
+    TCON.7                                                         008F 
+    TF0                                                            008D 
+    TF1                                                            008F 
+    TF2                                                            00CF 
+    TH0                                                            008C 
+    TH1                                                            008D 
+    TH2                                                            00CD 
+    TI                                                             0099 
+    TL0                                                            008A 
+    TL1                                                            008B 
+    TL2                                                            00CC 
+    TMOD                                                           0089 
+    TR0                                                            008C 
+    TR1                                                            008E 
+    TR2                                                            00CA 
+    TXD                                                            00B1 
+ 16 XG$Clear_Feature$0$0                                        =  0142 GR
+ 16 XG$Get_Configuration$0$0                                    =  03D1 GR
+ 16 XG$Get_Descriptor$0$0                                       =  0369 GR
+ 16 XG$Get_Idle$0$0                                             =  04CC GR
+ 16 XG$Get_Interface$0$0                                        =  0498 GR
+ 16 XG$Get_Protocol$0$0                                         =  04CD GR
+ 16 XG$Get_Report$0$0                                           =  0511 GR
+ 16 XG$Get_Status$0$0                                           =  00C9 GR
+ 16 XG$Set_Address$0$0                                          =  01FD GR
+ 16 XG$Set_Configuration$0$0                                    =  0444 GR
+ 16 XG$Set_Feature$0$0                                          =  01BB GR
+ 16 XG$Set_Idle$0$0                                             =  04E1 GR
+ 16 XG$Set_Interface$0$0                                        =  04CB GR
+ 16 XG$Set_Protocol$0$0                                         =  04CE GR
+ 16 XG$Set_Report$0$0                                           =  053E GR
+    _AC                                                         =  00D6 G
+    _ACC                                                        =  00E0 G
+    _B                                                          =  00F0 G
+    _CKCON                                                      =  008E G
+    _CLKMUL                                                     =  00B9 G
+    _CLKSEL                                                     =  00A9 G
+    _CY                                                         =  00D7 G
+ 16 _Clear_Feature                                                 00CA GR
+    _DATAPTR                                                       **** GX
+    _DATASENT                                                      **** GX
+    _DATASIZE                                                      **** GX
+    _DEVICEDESC                                                    **** GX
+    _DP                                                         =  8382 G
+    _DPH                                                        =  0083 G
+    _DPL                                                        =  0082 G
+    _EA                                                         =  00AF G
+    _EIE1                                                       =  00E6 G
+    _EIE2                                                       =  00E7 G
+    _EIP1                                                       =  00F6 G
+    _EIP2                                                       =  00F7 G
+    _EMI0CN                                                     =  00AA G
+    _EP_STATUS                                                     **** GX
+    _ES0                                                        =  00AC G
+    _ET0                                                        =  00A9 G
+    _ET1                                                        =  00AB G
+    _EX0                                                        =  00A8 G
+    _EX1                                                        =  00AA G
+    _F0                                                         =  00D5 G
+    _F1                                                         =  00D1 G
+    _FLKEY                                                      =  00B7 G
+    _FLSCL                                                      =  00B6 G
+    _Force_Stall                                                   **** GX
+    _GPIOCN                                                     =  00E2 G
+ 16 _Get_Configuration                                             036A GR
+ 16 _Get_Descriptor                                                01FE GR
+ 16 _Get_Idle                                                      04CC GR
+ 16 _Get_Interface                                                 0445 GR
+ 16 _Get_Protocol                                                  04CD GR
+ 16 _Get_Report                                                    04E2 GR
+ 16 _Get_Status                                                    0000 GR
+    _HIDCONFIGDESC                                                 **** GX
+    _HIDREPORTDESC                                                 **** GX
+    _Handle_In1                                                    **** GX
+    _IE                                                         =  00A8 G
+    _IE0                                                        =  0089 G
+    _IE1                                                        =  008B G
+    _IN_BUFFER                                                     **** GX
+    _IP                                                         =  00B8 G
+    _IT0                                                        =  0088 G
+    _IT1                                                        =  008A G
+ 17 _ONES_PACKET                                                   0000 GR
+    _OSCICL                                                     =  00B3 G
+    _OSCICN                                                     =  00B2 G
+    _OSCLCN                                                     =  00E3 G
+    _OUT_BUFFER                                                    **** GX
+    _OV                                                         =  00D2 G
+    _OVR0                                                       =  009F G
+    _P                                                          =  00D0 G
+    _P0                                                         =  0080 G
+    _P0MDOUT                                                    =  00A4 G
+    _P2                                                         =  00A0 G
+    _P2MDOUT                                                    =  00A6 G
+    _P3                                                         =  00B0 G
+    _P3MDOUT                                                    =  00A7 G
+    _PCON                                                       =  0087 G
+    _PERR0                                                      =  009F G
+    _PS0                                                        =  00BC G
+    _PSCTL                                                      =  008F G
+    _PSW                                                        =  00D0 G
+    _PT0                                                        =  00B9 G
+    _PT1                                                        =  00BB G
+    _PX0                                                        =  00B8 G
+    _PX1                                                        =  00BA G
+    _RBX0                                                       =  009A G
+    _REG0CN                                                     =  00C9 G
+    _REN0                                                       =  009C G
+    _RI0                                                        =  0098 G
+    _RS0                                                        =  00D3 G
+    _RS1                                                        =  00D4 G
+    _RSTSRC                                                     =  00EF G
+    _ReportHandler_IN_ISR                                          **** GX
+    _SBCON0                                                     =  0091 G
+    _SBRL0                                                      =  9493 G
+    _SBRLH0                                                     =  0094 G
+    _SBRLL0                                                     =  0093 G
+    _SBUF0                                                      =  0099 G
+    _SCON0                                                      =  0098 G
+    _SETUP                                                         **** GX
+    _SMOD0                                                      =  009A G
+    _SP                                                         =  0081 G
+    _STRINGDESCTABLE                                               **** GX
+ 16 _Set_Address                                                   01BC GR
+ 16 _Set_Configuration                                             03D2 GR
+ 16 _Set_Feature                                                   0143 GR
+ 16 _Set_Idle                                                      04CF GR
+ 16 _Set_Interface                                                 0499 GR
+ 16 _Set_Protocol                                                  04CE GR
+ 16 _Set_Report                                                    0512 GR
+    _Setup_OUT_BUFFER                                              **** GX
+    _TBX0                                                       =  009B G
+    _TCON                                                       =  0088 G
+    _TF0                                                        =  008D G
+    _TF1                                                        =  008F G
+    _TH0                                                        =  008C G
+    _TH1                                                        =  008D G
+    _TI0                                                        =  0099 G
+    _TL0                                                        =  008A G
+    _TL1                                                        =  008B G
+    _TMOD                                                       =  0089 G
+    _TR0                                                        =  008C G
+    _TR1                                                        =  008E G
+    _USB0ADR                                                    =  0096 G
+    _USB0DAT                                                    =  0097 G
+    _USB0XCN                                                    =  00D7 G
+    _USB0_STATE                                                    **** GX
+    _VDM0CN                                                     =  00FF G
+ 17 _ZERO_PACKET                                                   0002 GR
+    __XPAGE                                                     =  00AA G
+    __gptrget                                                      **** GX
+    a                                                              00E0 
+    a.0                                                            00E0 
+    a.1                                                            00E1 
+    a.2                                                            00E2 
+    a.3                                                            00E3 
+    a.4                                                            00E4 
+    a.5                                                            00E5 
+    a.6                                                            00E6 
+    a.7                                                            00E7 
+    ac                                                             00D6 
+    acc                                                            00E0 
+    acc.0                                                          00E0 
+    acc.1                                                          00E1 
+    acc.2                                                          00E2 
+    acc.3                                                          00E3 
+    acc.4                                                          00E4 
+    acc.5                                                          00E5 
+    acc.6                                                          00E6 
+    acc.7                                                          00E7 
+    ar0                                                         =  0000 
+    ar1                                                         =  0001 
+    ar2                                                         =  0002 
+    ar3                                                         =  0003 
+    ar4                                                         =  0004 
+    ar5                                                         =  0005 
+    ar6                                                         =  0006 
+    ar7                                                         =  0007 
+    b                                                              00F0 
+    b.0                                                            00F0 
+    b.1                                                            00F1 
+    b.2                                                            00F2 
+    b.3                                                            00F3 
+    b.4                                                            00F4 
+    b.5                                                            00F5 
+    b.6                                                            00F6 
+    b.7                                                            00F7 
+    cprl2                                                          00C8 
+    ct2                                                            00C9 
+    cy                                                             00D7 
+    dph                                                            0083 
+    dpl                                                            0082 
+    ea                                                             00AF 
+    es                                                             00AC 
+    et0                                                            00A9 
+    et1                                                            00AB 
+    et2                                                            00AD 
+    ex0                                                            00A8 
+    ex1                                                            00AA 
+    exen2                                                          00CB 
+    exf2                                                           00CE 
+    f0                                                             00D5 
+    ie                                                             00A8 
+    ie.0                                                           00A8 
+    ie.1                                                           00A9 
+    ie.2                                                           00AA 
+    ie.3                                                           00AB 
+    ie.4                                                           00AC 
+    ie.5                                                           00AD 
+    ie.7                                                           00AF 
+    ie0                                                            0089 
+    ie1                                                            008B 
+    int0                                                           00B2 
+    int1                                                           00B3 
+    ip                                                             00B8 
+    ip.0                                                           00B8 
+    ip.1                                                           00B9 
+    ip.2                                                           00BA 
+    ip.3                                                           00BB 
+    ip.4                                                           00BC 
+    ip.5                                                           00BD 
+    it0                                                            0088 
+    it1                                                            008A 
+    ov                                                             00D2 
+    p                                                              00D0 
+    p0                                                             0080 
+    p0.0                                                           0080 
+    p0.1                                                           0081 
+    p0.2                                                           0082 
+    p0.3                                                           0083 
+    p0.4                                                           0084 
+    p0.5                                                           0085 
+    p0.6                                                           0086 
+    p0.7                                                           0087 
+    p1                                                             0090 
+    p1.0                                                           0090 
+    p1.1                                                           0091 
+    p1.2                                                           0092 
+    p1.3                                                           0093 
+    p1.4                                                           0094 
+    p1.5                                                           0095 
+    p1.6                                                           0096 
+    p1.7                                                           0097 
+    p2                                                             00A0 
+    p2.0                                                           00A0 
+    p2.1                                                           00A1 
+    p2.2                                                           00A2 
+    p2.3                                                           00A3 
+    p2.4                                                           00A4 
+    p2.5                                                           00A5 
+    p2.6                                                           00A6 
+    p2.7                                                           00A7 
+    p3                                                             00B0 
+    p3.0                                                           00B0 
+    p3.1                                                           00B1 
+    p3.2                                                           00B2 
+    p3.3                                                           00B3 
+    p3.4                                                           00B4 
+    p3.5                                                           00B5 
+    p3.6                                                           00B6 
+    p3.7                                                           00B7 
+    pcon                                                           0087 
+    ps                                                             00BC 
+    psw                                                            00D0 
+    psw.0                                                          00D0 
+    psw.1                                                          00D1 
+    psw.2                                                          00D2 
+    psw.3                                                          00D3 
+    psw.4                                                          00D4 
+    psw.5                                                          00D5 
+    psw.6                                                          00D6 
+    psw.7                                                          00D7 
+    pt0                                                            00B9 
+    pt1                                                            00BB 
+    pt2                                                            00BD 
+    px0                                                            00B8 
+    px1                                                            00BA 
+    rb8                                                            009A 
+    rcap2h                                                         00CB 
+    rcap2l                                                         00CA 
+    rclk                                                           00CD 
+    ren                                                            009C 
+    ri                                                             0098 
+    rs0                                                            00D3 
+    rs1                                                            00D4 
+    rxd                                                            00B0 
+    sbuf                                                           0099 
+    scon                                                           0098 
+    scon.0                                                         0098 
+    scon.1                                                         0099 
+    scon.2                                                         009A 
+    scon.3                                                         009B 
+    scon.4                                                         009C 
+    scon.5                                                         009D 
+    scon.6                                                         009E 
+    scon.7                                                         009F 
+    sm0                                                            009F 
+    sm1                                                            009E 
+    sm2                                                            009D 
+    sp                                                             0081 
+    t2con                                                          00C8 
+    t2con.0                                                        00C8 
+    t2con.1                                                        00C9 
+    t2con.2                                                        00CA 
+    t2con.3                                                        00CB 
+    t2con.4                                                        00CC 
+    t2con.5                                                        00CD 
+    t2con.6                                                        00CE 
+    t2con.7                                                        00CF 
+    tb8                                                            009B 
+    tclk                                                           00CC 
+    tcon                                                           0088 
+    tcon.0                                                         0088 
+    tcon.1                                                         0089 
+    tcon.2                                                         008A 
+    tcon.3                                                         008B 
+    tcon.4                                                         008C 
+    tcon.5                                                         008D 
+    tcon.6                                                         008E 
+    tcon.7                                                         008F 
+    tf0                                                            008D 
+    tf1                                                            008F 
+    tf2                                                            00CF 
+    th0                                                            008C 
+    th1                                                            008D 
+    th2                                                            00CD 
+    ti                                                             0099 
+    tl0                                                            008A 
+    tl1                                                            008B 
+    tl2                                                            00CC 
+    tmod                                                           0089 
+    tr0                                                            008C 
+    tr1                                                            008E 
+    tr2                                                            00CA 
+    txd                                                            00B1 
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods + Flat24  (Intel 8051), page 2.
+
+Area Table
+
+   0 _CODE                                      size    0   flags 0
+   1 RSEG                                       size    0   flags 8
+   2 RSEG0                                      size    0   flags 8
+   3 RSEG1                                      size    0   flags 8
+   4 REG_BANK_0                                 size    8   flags 4
+   5 DSEG                                       size    0   flags 0
+   6 ISEG                                       size    0   flags 0
+   7 IABS                                       size    0   flags 8
+   8 BSEG                                       size    0   flags 80
+   9 PSEG                                       size    0   flags 50
+   A XSEG                                       size    0   flags 40
+   B XABS                                       size    0   flags 48
+   C XISEG                                      size    0   flags 40
+   D HOME                                       size    0   flags 20
+   E GSINIT0                                    size    0   flags 20
+   F GSINIT1                                    size    0   flags 20
+  10 GSINIT2                                    size    0   flags 20
+  11 GSINIT3                                    size    0   flags 20
+  12 GSINIT4                                    size    0   flags 20
+  13 GSINIT5                                    size    0   flags 20
+  14 GSINIT                                     size    0   flags 20
+  15 GSFINAL                                    size    0   flags 20
+  16 CSEG                                       size  53F   flags 20
+  17 CONST                                      size    4   flags 20
+  18 XINIT                                      size    0   flags 20
+  19 CABS                                       size    0   flags 28

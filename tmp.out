@@ -1,0 +1,15 @@
+
+BL51 BANKED LINKER/LOCATER V6.22 - SN: K1PEF-TAKEAD
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+"C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\ArticleBuild\F3xx_USB0_Main.obj",
+"C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\ArticleBuild\F3xx_USB0_InterruptServiceRoutine.obj",
+"C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\ArticleBuild\F3xx_USB0_Standard_Requests.obj",
+"C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\ArticleBuild\F3xx_USB0_ReportHandler.obj",
+"C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\ArticleBuild\F326_USB0_Mouse.obj",
+"C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\ArticleBuild\F3xx_USB0_Descriptor.obj"  TO "C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\ArticleBuild\Mouse_F320" RS(256) PL(68) PW(78) 
+
+*** FATAL ERROR L210: I/O ERROR ON INPUT FILE:
+    EXCEPTION 0021H: PATH OR FILE NOT FOUND
+    FILE: C:\Users\grposey\Dropbox\Personal Projects\Wedding\NES Controller\ArticleBuild\F3xx_USB0_Descriptor.obj
+
+>> 

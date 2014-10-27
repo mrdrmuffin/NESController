@@ -1,0 +1,22 @@
+-muwx
+-i F:\Dropbox\Dropbox\Personal Projects\Wedding\NES Controller\NES Attempt 3\Mouse_F320.hex
+-M
+-Y
+-y
+-b HOME = 0x0000
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k F:\Program Files (x86)\SDCC\bin\..\lib\small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+F:\Dropbox\Dropbox\Personal Projects\Wedding\NES Controller\NES Attempt 3\F3xx_USB0_Main.rel
+F:\Dropbox\Dropbox\Personal Projects\Wedding\NES Controller\NES Attempt 3\F3xx_USB0_InterruptServiceRoutine.rel
+F:\Dropbox\Dropbox\Personal Projects\Wedding\NES Controller\NES Attempt 3\F3xx_USB0_Standard_Requests.rel
+F:\Dropbox\Dropbox\Personal Projects\Wedding\NES Controller\NES Attempt 3\F3xx_USB0_ReportHandler.rel
+F:\Dropbox\Dropbox\Personal Projects\Wedding\NES Controller\NES Attempt 3\F326_USB0_Mouse.rel
+F:\Dropbox\Dropbox\Personal Projects\Wedding\NES Controller\NES Attempt 3\F3xx_USB0_Descriptor.rel
+
+-e
