@@ -61,8 +61,8 @@
 // 16-bit SFR Definitions for 'F32x
 //-----------------------------------------------------------------------------
 
-sfr16 TMR2RL   = 0xca;                 // Timer2 reload value
-sfr16 TMR2     = 0xcc;                 // Timer2 counter
+//sfr16 TMR2RL   = 0xca;                 // Timer2 reload value
+//sfr16 TMR2     = 0xcc;                 // Timer2 counter
 
 
 //-----------------------------------------------------------------------------

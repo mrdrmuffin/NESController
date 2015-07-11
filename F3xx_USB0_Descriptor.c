@@ -46,14 +46,14 @@ SEGMENT_VARIABLE(DEVICEDESC, const device_descriptor, SEG_CODE) =
 {
    {18},                                 // bLength
    {0x01},                               // bDescriptorType
-   {LE_ARRAY(0x0110)},                             // bcdUSB
+   {0x0110},                             // bcdUSB
    {0x00},                               // bDeviceClass
    {0x00},                               // bDeviceSubClass
    {0x00},                               // bDeviceProtocol
    {EP0_PACKET_SIZE},                    // bMaxPacketSize0
-   {LE_ARRAY(0x10C4)},                             // idVendor
-   {LE_ARRAY(0x81B9)},                             // idProduct
-   {LE_ARRAY(0x0000)},                             // bcdDevice
+   {0x10C4},                             // idVendor
+   {0x81B9},                             // idProduct
+   {0x0000},                             // bcdDevice
    {0x01},                               // iManufacturer
    {0x02},                               // iProduct
    {0x00},                               // iSerialNumber
@@ -72,7 +72,7 @@ SEGMENT_VARIABLE(HIDCONFIGDESC, const hid_configuration_descriptor, SEG_CODE) =
 { // configuration_descriptor hid_configuration_descriptor
    {0x09},                               // Length
    {0x02},                               // Type
-   {LE_ARRAY(0x0022)},                   // Totallength (= 9+9+9+7)
+   {0x0022},                   // Totallength (= 9+9+9+7)
    {0x01},                               // NumInterfaces
    {0x01},                               // bConfigurationValue
    {0x00},                               // iConfiguration
@@ -95,7 +95,7 @@ SEGMENT_VARIABLE(HIDCONFIGDESC, const hid_configuration_descriptor, SEG_CODE) =
 { // class_descriptor hid_descriptor
    {0x09},                               // bLength
    {0x21},                               // bDescriptorType
-   {LE_ARRAY(0x0101)},                   // bcdHID
+   {0x0101},                   // bcdHID
    {0x00},                               // bCountryCode
    {0x01},                               // bNumDescriptors
    {0x22},                               // bDescriptorType
